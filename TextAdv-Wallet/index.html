@@ -368,13 +368,52 @@
                 <p><a href="#standGround">Retreat!</a></p>
             </div>
         </div>
-
+        <!-- Tier 8 --> <!-- WIN!!! -->
+        <!-- Piano time -->
+        <div id="pianoWin" class="step slide" data-y="7000" data-x="1500">
+            <div class="slide-text">
+                <p>
+                    You finally make it back home in one piece. Your mind still racing, you take a moment to sit down and play a tube on your beloved piano to calm your nerves...
+                </p>
+                <p>
+                    You may not know what to do next but one thing is certain. No matter what troubles you face, you can always come home to your piano and feel at peace.
+                </p>
+                <hr id="bar" />
+                <p id="centerControl"><a href="#win">YAY!</a></p>
+            </div>
+        </div>
+        <!-- Tier 8 --> <!-- DEATH!!! -->
+        <!-- Insanity -->
+        <div id="insanity" class="step slide" data-y="7000" data-x="4500">
+            <div class="slide-text">
+                <p>
+                    You turn to your family for comfort and share your experience with them. No luck, they think your crazy and throw in a loony bin.
+                </p>
+                <p>
+                    Maybe you should have brought back a souvenir. But its too late for that, you quickly begin to lose your mind and waste away.
+                </p>
+                <hr id="bar" />
+                <p id="centerControl"><a href="#gameover">Game Over</a></p>
+            </div>
+        </div>
         <!-- Game Over -->
         <div id="gameover" class="step slide" data-y="10000">
             <div class="menu">
                 <h1 id="centercontrol">GAME OVER!</h1>
                 <img src="assets/Pacman.gif" width="300px" />
                 <p><a href="#title">Initiate reboot sequence something something smart!</a></p>
+            </div>
+        </div>
+        <!-- Winner Is You -->
+        <div id="win" class="step slide" data-y="11500">
+            <div class="menu">
+                <h1 id="centercontrol" style="color:red; font-weight:bold; font-size:40px; margin-bottom:20px;">
+                    Congratulations!
+                </h1>
+                <p id="centerControl">Thank you for playing!</p><br />
+                <img src="assets/Win.gif" width="600px" />
+                <hr id="bar" />
+                <p><a href="#flash">Give it another go why dont you?</a></p>
             </div>
         </div>
     </div>
