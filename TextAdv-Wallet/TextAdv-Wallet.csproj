@@ -67,6 +67,8 @@
   <ItemGroup>
     <Content Include="assets\Loading.gif" />
     <Content Include="assets\Logo.jpg" />
+    <Content Include="assets\Pacman.gif" />
+    <Content Include="assets\Piano.gif" />
     <Content Include="css\Main.css" />
     <Content Include="css\Reset.css" />
     <Content Include="index.html" />

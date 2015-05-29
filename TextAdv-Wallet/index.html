@@ -49,7 +49,39 @@
                 <p><a href="#title">Retreat!</a></p>
             </div>
         </div>
+        <!-- Tier 2 --> <!-- DEATH!!! -->
+        <!-- Didn't pick up wallet -->
+        <div id="dontPickup" class="step slide" data-y="1500" data-x="1500">
+            <div class="slide-text">
+                <p>You just washed your hands so you decide to move along... CRASH!</p>
+                <img src="assets/Piano.gif" width="500px" style="margin-left:100px;" /> <br>
+                <hr id="bar" />
+                <p id="centerControl"><a href="#gameover">Game Over</a></p>
+            </div>
+        </div>
+        <!-- Tier 2 -->
+        <!-- Picked up wallet -->
+        <div id="pickup" class="step slide" data-y="1500" data-x="-1500">
+            <div class="slide-text">
+                <p>With the wallet in your hands, you are frozen in silence. There are simply infinte possibilities in front of you... What's your next step?</p>
+                <hr id="bar" />
+                <p><a href="#takeToPolice">Take the wallet to a nearby police station.</a></p>
+                <p><a href="#cashSearch">Look for cash.</a></p>
+                <p><a href="#idSearch">Look for ID.</a></p>
+                <hr id="bar" />
+                <p><a href="#intro">Retreat!</a></p>
+            </div>
+        </div>
 
+
+        <!-- Game Over -->
+        <div id="gameover" class="step slide" data-y="10000">
+            <div class="menu">
+                <h1 id="centercontrol">GAME OVER!</h1>
+                <img src="assets/Pacman.gif" width="300px" />
+                <p><a href="#title">Initiate reboot sequence something something smart!</a></p>
+            </div>
+        </div>
     </div>
         <!-- Javascript Section-->
         <script src="scripts/lib/impress.js"></script>
